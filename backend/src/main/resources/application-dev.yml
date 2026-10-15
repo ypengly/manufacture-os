@@ -1,0 +1,8 @@
+manufactureos:
+  jwt:
+    secret: ${JWT_SECRET:dev-only-secret-change-me-dev-only-secret-change-me-0123456789}
+  seed:
+    enabled: true
+logging:
+  level:
+    com.manufactureos: DEBUG

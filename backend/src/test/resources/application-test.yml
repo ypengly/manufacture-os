@@ -1,0 +1,9 @@
+manufactureos:
+  jwt:
+    secret: test-secret-test-secret-test-secret-test-secret-0123456789
+  seed:
+    enabled: false
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
